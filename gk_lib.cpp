@@ -60,10 +60,10 @@ void writeAutocorrFile(string AC, double *mtoxy,double *mtoxz, double *mtoyz, do
 		autocorrF.precision(10);
 		if(t==0){
 			autocorrF << "time" << setw(20) << "ACxy" << setw(20) << "ACxz" << setw(20) << "ACyz" << endl;
-			autocorrF << showpoint << tt[t] << setw(20) << stoxy[t] << setw(20) << stoxz[t] << setw(20) << stoyz[t] << endl;
+			autocorrF << showpoint << tt[t] << setw(20) << mtoxy[t] << setw(20) << mtoxz[t] << setw(20) << mtoyz[t] << endl;
 			autocorrF.close();
 		}else{
-			autocorrF << showpoint << tt[t] << setw(20) << stoxy[t] << setw(20) << stoxz[t] << setw(20) << stoyz[t] << endl;
+			autocorrF << showpoint << tt[t] << setw(20) << mtoxy[t] << setw(20) << mtoxz[t] << setw(20) << mtoyz[t] << endl;
 			autocorrF.close();
 		}
 }
