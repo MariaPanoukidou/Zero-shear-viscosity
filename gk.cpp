@@ -1,7 +1,7 @@
 //This code was developed by M. Panoukidou (University of Manchester) ( February 2020 )
 // within the frames of her PhD research and for the purposes of the work:
 //
-//              M. Panoukidou, CR Wand, P. Carbobe, Phys.Rew E (2020) 
+//              M. Panoukidou, CR Wand, P. Carbobe, Soft Matter (2021), DOI: 10.1039/d1sm00891a
 //
 // The Stress Autocorrelation function is calculated using multiple time origins (MTO).
 // Afterwards the viscosity is calculated using the generalized Green- Kubo relation for DPD derived by: 
@@ -10,7 +10,7 @@
 // 				M.H. Ernst, R. Brito, Europhys. Lett. 73 (2006) 183
 // 				G. Jung, F. Schmid, J. Chem. Phys. 144 (2016) 204104
 //
-// If you are using this code please acknowledge our effort and cite our paper "M. Panoukidou, CR Wand, P. Carbobe, JCTC (2020)".
+// If you are using this code please acknowledge our effort and cite our paper "M. Panoukidou, CR Wand, P. Carbobe, Soft Matter, 2021 DOI: 10.1039/d1sm00891a".
 // Note: This cpp file needs its headers to run. Please compile with the header file gk_lib.h and gk_lib.cpp.
 
 #include "gk_lib.h"
