@@ -1,9 +1,9 @@
 //This code was developed by M. Panoukidou (University of Manchester) ( February 2020 )
 //The zero-shear viscosity is calculated using the generalized Eintein-Helfand formula derived in the work:
 //
-//              M. Panoukidou, CR Wand, P. Carbobe, Phys.Rew E (2020) 
+//              M. Panoukidou, CR Wand, P. Carbobe, Soft Matter (2021), DOI: 10.1039/d1sm00891a
 //
-// If you are using this code please acknowledge our effort and cite our paper "M. Panoukidou, CR Wand, P. Carbobe, Phys.Rew E (2020)".
+// If you are using this code please acknowledge our effort and cite our paper "M. Panoukidou, CR Wand, P. Carbobe, DOI: 10.1039/d1sm00891a".
 // Note: This cpp file needs its headers to run. Please compile with the header file ein_lib.h and ein_lib.cpp.
 
 #include "ein_lib.h"
